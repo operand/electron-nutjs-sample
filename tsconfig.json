@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es6",
+  },
+  "include": [
+    "definitions.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
